@@ -13,7 +13,6 @@ def moveFiles(files, folder, p=''):
     if p=='':
         [os.replace(file,f'{folder}/{file}') for file in files]
     else:
-        # p for documents because by default it will check Clutter/ but we want Clutter/Documents
         [os.replace(f'{p}/{file}',f'{p}/{folder}/{file}') for file in files]
 
 if __name__ == "__main__":
