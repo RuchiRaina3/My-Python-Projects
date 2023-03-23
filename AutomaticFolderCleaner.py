@@ -1,3 +1,5 @@
+#Run this file in the folder which you want to clean
+
 import os
 
 def makeDir(folder, parent=''):
