@@ -1,5 +1,5 @@
 # My-Python-Projects
-![Nams](Namaste!.jpg)
+![Nams](Assets/Namaste!.jpg)
 I am sharing few of my python projects which I have developed and still developing along my self-learning journey.
 Few were for college grades, more are for fun!!!
 
