@@ -67,7 +67,7 @@ def Magic_Square(n):        #Function to find magic square of size n
     print()
     print("The sum of each row/column/diagonal is: ", n*(n*n+1)/2)
         
-num = input("Write the number whose magic square you want to find (Remember Magic square can be found only for square of size of even number): ")
+num = input("Write the number whose magic square you want to find (Remember this is odd order Magic square): ")
 num = int(num)
 print()
 
