@@ -25,18 +25,22 @@ To use this program you have to move it to the folder which you want to organise
 **Modules Used :** os <br>
  <a href='/Projects/Automatic Folder Organiser.py'> <strong> <em> Visit Project </strong> </em> </a>
  
-  ## **Spiral Traversing**
+## **Colourful Spiral Traversing**
+This program makes spiral traversing in colourful lines. For this purpose, I have used turtle module.
    ![Colourful](https://user-images.githubusercontent.com/92518496/227700398-63fb24eb-dee4-4c1b-830a-766781d4886a.gif)
- 
- ## **Image Processing**
- This program is divided into two sections:
+   
+**Modules Used :** turtle, random <br>
+ <a href='/Projects/Colourful Spiral Traversing.py'> <strong> <em> Visit Project </strong> </em> </a>
+
+## **Image Processing**
+This program is divided into two sections:
  <pre>     1. Flipping the mirriored image - As image is stored as a matrix in computer. Now, to flip the image, we have to 
         flip that matrix i.e. transpose that matrix
      2. Enhancing the image - Image enhancement is done using Contrast limited Adaptive Histogram Equalization (CLAHE). 
         CLAHE technique works better when image is black and white. So first it is converted in Gray Scale Image, then 
         CLAHE is applied using built-in function.           </pre>
         
-  **Modules Used :** Image from PIL, cv2 <br>
+ **Modules Used :** Image from PIL, cv2 <br>
  <a href='/Projects/Image Processing'> <strong> <em> Visit Project </strong> </em> </a>      
   
 ## **6 Degrees Of Separation**
