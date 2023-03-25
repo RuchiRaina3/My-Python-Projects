@@ -12,7 +12,7 @@ import numpy as np
 from PIL import Image
 
 i1 = Image.open('Lena.jpg') #Stored Lena in i1
-#i1.show() shows image or writting i1 in console also shows image
+#i1.show() shows image
 #print(i1) printed <PIL.JpegImagePlugin.JpegImageFile image mode=L size=512x512 at 0x16732280388>
 pixelMap1 = i1.load()     
 #print(pixelMap) prints <PixelAccess object at 0x00000167322C0D30>
@@ -26,10 +26,8 @@ I2 = np.asanyarray(i2)
 #print(I2) #All elements are 0 as i2 is of black colour
 
 '''
-  Now, 0-255 = 0-2^8. So we need 8 bits to store
-  255. Now, for data compression we will map 
-  2^8 - 2^3
-  For that divide 2^8 with 2^3, we get 2^5. This means
+  Now, 0-255 = 0-2^8. So we need 8 bits to store 255. Now, for data compression we will map 2^8 - 2^3. For that divide 2^8 with 2^3, we get 2^5. 
+  This means
       0-31    = 0
       32-63   = 1
       64-95   = 2
