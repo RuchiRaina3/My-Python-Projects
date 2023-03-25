@@ -22,12 +22,12 @@ for i in range(len(string.ascii_letters)):  #I could also make a variable and st
     dict1[string.ascii_letters[i]] = string.ascii_letters[(i+key)%len(string.ascii_letters)]
            #Key                           #Value
 
-plain_txt = 'Hey, I am studying the encryption by Substitution Cypher'
+plain_txt = 'Hey, I am studying the encryption by Substitution Cipher'
 encry_text = []
 
 for c in plain_txt:
-     if c in dict1:  #To check as plain_txt has space/symbols also
-         c = dict1[c]   #I could have also used a variable, say temp in place of c
+     if c in dict1:  #To check if plain_txt has space/symbols
+         c = dict1[c]   
          encry_text.append(c)
      else:
          encry_text.append(c)
