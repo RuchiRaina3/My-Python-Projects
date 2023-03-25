@@ -54,7 +54,7 @@ def spiral(r, c):
         t.right(90)
         
 
-spiral(18, 18)
+spiral(14, 14)
 turtle.done()
 
 
