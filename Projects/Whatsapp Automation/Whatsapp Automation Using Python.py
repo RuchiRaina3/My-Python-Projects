@@ -23,25 +23,16 @@ wait = WebDriverWait(browser, 600) #Sometimes net is slow, so this function will
 target = '"Shruti"' #Syntax '"Name"'
 msg1 = "Hi Shruti" #Message to sent
 msg2 = "What's up?"
-msg3 = 'Aaaaaaaaoo'
-msg4 = 'Wow!!!'
 
-
-#Then Inspect to find the id of target message box. 
-#body class -> div id -> div class -> span
-#Here, span is given so find which span is of the target, 
+#Then Inspect to find the id of target message box. body class -> div id -> div class -> span. Here, span is given so find which span is of the target, 
 #we will use following code
 xArg = '//span[contains(@title,' + target + ')]'
 target = wait.until(EC.presence_of_element_located((By.XPATH, xArg)))
-#wait.until(mrthod) calls the method until the return value is not False.
-#EC.presence_of_element_located(locator) An expectation for checking that
-#an element is present on the page. This does not necessarily mean 
-#that the element is visible. locator - used to find the element and
-#returns the WebElement once it is located
+#wait.until(mrthod) calls the method until the return value is not False. EC.presence_of_element_located(locator) An expectation for checking that an element 
+#is present on the page. This does not necessarily mean that the element is visible. locator - used to find the element andreturns the WebElement once it is located
 target.click()
 
-#Now for sending message, I need to locate text box which can be done  
-#by many ways. Here, we will be doing find by class
+#Now for sending message, I need to locate text box which can be done by many ways. Here, we will be doing find by class
 text_box = browser.find_element_by_class_name('DuUXI')
 
 #Sending Message
