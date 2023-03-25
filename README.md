@@ -74,6 +74,20 @@ This is the classic FLAMES - 'FRIENDS','LOVE','AFFECTION','MARRIAGE','ENEMIES','
 This game involves the name of two persons. After applying a logic, they are termed one of these - 'FRIENDS','LOVE','AFFECTION','MARRIAGE','ENEMIES','SIBILING'.
 
 **Modules Used :** string <br>
-<a href='/Projects/FLAMES.py'> <strong> <em> Visit Project </strong> </em> </a>
+<a href='/Projects/Games/FLAMES.py'> <strong> <em> Visit Project </strong> </em> </a>
+
+## **Monty Hall**
+This game is based on the American television game show Let's Make a Deal and named after its original host, Monty Hall. Suppose you're on a game show, and you're given the choice of three doors: Behind one door is a BMW; behind the others, goats. You pick a door, say No. 1, 
+and the host, who knows what's behind the doors, opens another door, say No. 3, which has a goat. He then says to you, "Do you want to pick door No. 2?"
+There are 3 doors, one contains BMW and other two contain goats. Is it to your advantage to switch your choice?
+We have to check the number of wins with swap and without swap.
+
+**Modules Used :** random <br>
+<a href='/Projects/Games/Monty Hall.py'> <strong> <em> Visit Project </strong> </em> </a>
+
+## **Tic Tac Toe**
+This is the simulation of the classic tic tac toe game.
+**Modules Used :** numpy <br>
+<a href='/Projects/Games/Tic Tac Toe.py'> <strong> <em> Visit Project </strong> </em> </a>
 
  
