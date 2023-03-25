@@ -52,6 +52,16 @@ the theory of Six Degrees of Separation.
 
  **Modules Used :** networkx, numpy <br>
  <a href='/Projects/6 Degrees Of Separation'> <strong> <em> Visit Project </strong> </em> </a>
+ 
+## **Lottery Simulation Program**
+This is a lottery simulation to give an idea of how many times a person can win in given number of times. Price of 1 bet is Rs.100 and winning amount is Rs.1000.
+account variable keeps the track of the net money you have.    
+User will be asked for how many times he want to play.    
+Finally, a graph will be plotted to have a look at the patter of net profit or loss 
+
+**Modules Used :** random, matplotlib.pyplot <br>
+ <a href='/Projects/Lottery Simulation Program.py'> <strong> <em> Visit Project </strong> </em> </a>
+
 
 
  
