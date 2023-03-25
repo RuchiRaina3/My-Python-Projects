@@ -5,9 +5,9 @@ Created on Sun Oct 25 21:44:06 2020
 @author: lockd
 
                            MONTY HALL GAME
-There are 3 doors, one contains BMW and other two contain goats.
-There will be 10 rounds. Player will make choice of one door which contain BMW
-Then he will be shown a door which contain goat and will be asked to make a swap.
+Suppose you're on a game show, and you're given the choice of three doors: Behind one door is a BMW; behind the others, goats. You pick a door, say No. 1, 
+and the host, who knows what's behind the doors, opens another door, say No. 3, which has a goat. He then says to you, "Do you want to pick door No. 2?"
+There are 3 doors, one contains BMW and other two contain goats. Is it to your advantage to switch your choice?
 We have to check the number of wins with swap and without swap.
 """
 import random
