@@ -62,6 +62,13 @@ Finally, a graph will be plotted to have a look at the patter of net profit or l
 **Modules Used :** random, matplotlib.pyplot <br>
  <a href='/Projects/Lottery Simulation Program.py'> <strong> <em> Visit Project </strong> </em> </a>
 
+## **Whatsapp Automation**
+This is Whatsapp Automation project. Here, I have send Whatsapp messages to one of my contacts using Python. To do so, we need to install chromedriver. It will also
+require inspecting web elements. Detailed steps are given as comments in the code itself.
+
+**Modules Used :** selenium <br>
+<a href='/Projects/Whatsapp Automation Using Python.py'> <strong> <em> Visit Project </strong> </em> </a>
+
 
 
  
