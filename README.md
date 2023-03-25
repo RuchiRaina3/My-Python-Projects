@@ -23,7 +23,14 @@ the theory of Six Degrees of Separation.
  
 ## **Automatic Birthday Wisher**
 This is a program to automatically wish the person on her birthday via email. For that, an excel sheet has to be craeted in the folder where is the source file. We will add the following rows, such as Sno, Name, Birthday, Message, Year, Email. I have shared the sample file. Now to send email we will use the smtplib library. We will be using Gmail for this application. Now we need to create a function which will send email using a gmail id. To use this service we need to enable less secure apps on the gmail account. And finally we will schedule the program from the task scheduler for 12:00 AM daily.
+
  **Modules Used :** pandas, datetime, smtplib <br>
  <a href='/Projects/Automatic Birthday Wisher'> <strong> <em> Visit Project </strong> </em> </a>
 
+## **Automatic Folder Organiser**
+We all have some folder like Downloads folder which are very messy. For such situations, this program comes to rescue. It will organise all the files into different folders viz 'Images', 'Documents', 'Music', 'Videos', 'Applications', 'Zipped'.
+Then again within in the Documents, it will organise the files into folders - 'Word', 'Presentation', 'Pdf', 'Text', 'Excel', 'CSV', 'Web Pages'
+To use this program you have to move it to the folder which you want to organise and then run it from there.
 
+**Modules Used :** os <br>
+ <a href='/Projects/Automatic Folder Organiser.py'> <strong> <em> Visit Project </strong> </em> </a>
