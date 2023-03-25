@@ -13,8 +13,7 @@ from PIL import Image
 
 img = Image.open("Mirrored Image.png")
 
-"""Image is stored in computer as a matrix. Now, we have to flip that image
-and in computer image is actually a matrix and flipping matrix means to
+"""Image is stored in computer as a matrix. Now, we have to flip that image and in computer image is actually a matrix and flipping matrix means to 
 transpose a matrix i.e. interchanging rows and columns"""
 
 #Transposing
