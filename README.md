@@ -34,3 +34,14 @@ To use this program you have to move it to the folder which you want to organise
 
 **Modules Used :** os <br>
  <a href='/Projects/Automatic Folder Organiser.py'> <strong> <em> Visit Project </strong> </em> </a>
+ 
+ ## **Image Processing**
+ This program is divided into two sections:
+ <pre>     1. Flipping the mirriored image - As image is stored as a matrix in computer. Now, to flip the image, we have to 
+        flip that matrix i.e. transpose that matrix
+     2. Enhancing the image - Image enhancement is done using Contrast limited Adaptive Histogram Equalization (CLAHE). 
+        CLAHE technique works better when image is black and white. So first it is converted in Gray Scale Image, then 
+        CLAHE is applied using built-in function.           </pre>
+        
+  **Modules Used :** Image from PIL, cv2 <br>
+ <a href='/Projects/Image Processing'> <strong> <em> Visit Project </strong> </em> </a>      
