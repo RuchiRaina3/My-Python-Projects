@@ -20,7 +20,7 @@ def moveFiles(files, folder, p=''):
 if __name__ == "__main__":
 
     all_files = os.listdir()
-    all_files.remove('AutomaticFolderOrganiser.py')
+    all_files.remove('Automatic Folder Organiser.py')
     folders = ['Images', 'Documents', 'Music', 'Videos', 'Applications', 'Zipped']
     [makeDir(folder) for folder in folders]
 
