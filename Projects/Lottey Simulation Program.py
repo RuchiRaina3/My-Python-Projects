@@ -37,4 +37,5 @@ print('Net amount = ', account)
 plt.xlabel('Times Played')
 plt.ylabel('Account')
 plt.plot(x,y)
+plt.show()
 
