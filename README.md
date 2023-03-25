@@ -69,6 +69,11 @@ require inspecting web elements. Detailed steps are given as comments in the cod
 **Modules Used :** selenium <br>
 <a href='/Projects/Whatsapp Automation Using Python.py'> <strong> <em> Visit Project </strong> </em> </a>
 
+## **FLAMES**
+This is the classic FLAMES - 'FRIENDS','LOVE','AFFECTION','MARRIAGE','ENEMIES','SIBILING' game. I am sure almost everyone would have played it in childhood.
+This game involves the name of two persons. After applying a logic, they are termed one of these - 'FRIENDS','LOVE','AFFECTION','MARRIAGE','ENEMIES','SIBILING'.
 
+**Modules Used :** string <br>
+<a href='/Projects/FLAMES.py'> <strong> <em> Visit Project </strong> </em> </a>
 
  
