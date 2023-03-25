@@ -4,7 +4,7 @@ Created on Thu Dec 17 15:35:37 2020
 
 @author: lockd
 
-Whatsapp Automation Using Python Just writing script/code
+Whatsapp Automation Using Python
 
 """
 
@@ -20,7 +20,7 @@ browser.get('https://web.whatsapp.com/') #Opens Whatsapp
 wait = WebDriverWait(browser, 600) #Sometimes net is slow, so this function will make program to wait for some time and not to get failed
 
 #Name of friend to whom to send message
-target = '"Shruti Jio"' #Syntax '"Name"'
+target = '"Shruti"' #Syntax '"Name"'
 msg1 = "Hi Shruti" #Message to sent
 msg2 = "What's up?"
 msg3 = 'Aaaaaaaaoo'
