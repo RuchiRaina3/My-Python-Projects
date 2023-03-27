@@ -14,7 +14,7 @@ In the README, I am listing brief description of handful of these projects.
 ## **Automatic Birthday Wisher**
 This is a program to automatically wish the person on her birthday via email. For that, an excel sheet has to be craeted in the folder where is the source file. We will add the following rows, such as Sno, Name, Birthday, Message, Year, Email. I have shared the sample file. Now to send email we will use the smtplib library. We will be using Gmail for this application. Now we need to create a function which will send email using a gmail id. To use this service we need to enable less secure apps on the gmail account. And finally we will schedule the program from the task scheduler for 12:00 AM daily.
 
- **Modules Used :** pandas, datetime, smtplib <br>
+ **Packages/Libraries Used :** pandas, datetime, smtplib <br>
  <a href='/Projects/Automatic Birthday Wisher'> <strong> <em> Visit Project </strong> </em> </a>
 
 ## **Automatic Folder Organiser**
